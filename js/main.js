@@ -1,5 +1,7 @@
-var $body = $('body');
+var $ball = $('.ball');
 var $html = $('html');
+var $input = $('form');
+var $picker = $('picker');
 
 $html.on('keydown', function () {
   var newBall = $('<div>');
