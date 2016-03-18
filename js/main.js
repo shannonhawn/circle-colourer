@@ -1,13 +1,10 @@
-var $ball = $('div');
+var $ball = $('.ball');
 var $html = $('html');
 var $input = $('form');
 var $picker = $('picker');
 
-$html.on('keydown', function () {
+$picker.on('change', function () {
   var newBall = $('<div>');
 });
 
-$newball.addClass('ball');
-$body.append(newBall);
-$newBall.css('top', Math.random());
-$newBall.css('left', Math.random());
+$ball.css('background-color', $input.val());
