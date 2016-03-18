@@ -1,4 +1,4 @@
-var $ball = $('.ball');
+var $ball = $('div');
 var $html = $('html');
 var $input = $('form');
 var $picker = $('picker');
